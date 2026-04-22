@@ -1,0 +1,110 @@
+# ============================================
+# Compiled Output & Dependencies
+# ============================================
+/dist
+/build
+/node_modules
+*.js.map
+*.d.ts.map
+
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+# NEVER commit environment files with secrets
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.*.local
+.env*.log
+
+# ============================================
+# Logs & Debug Files
+# ============================================
+logs/
+*.log
+*.log.*
+npm-debug.log*
+npm-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+debug.log
+debug_log.txt
+debug_result.json
+start.log
+
+# ============================================
+# Debug & Test Files
+# ============================================
+/coverage
+/.nyc_output
+debug_reviews.js
+query-playable.js
+spotify-test.js
+test-results/
+
+# ============================================
+# Runtime Data
+# ============================================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# Operating System Files
+# ============================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.tmp
+.temp
+
+# ============================================
+# IDE & Editor Configuration
+# ============================================
+/.idea
+/.vscode
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ============================================
+# Testing & Coverage
+# ============================================
+/test-results
+coverage/
+
+# ============================================
+# Misc
+# ============================================
+.env.local.backup
+dist/
+*.cache
+.eslintcache
+.parcelcache
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
