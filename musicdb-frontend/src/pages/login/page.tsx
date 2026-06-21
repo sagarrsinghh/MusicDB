@@ -50,7 +50,7 @@ export default function LoginPage() {
                     className="text-center mb-8 w-full"
                 >
                     <h1 className="font-serif text-retro-gold text-6xl md:text-7xl font-black uppercase tracking-tighter italic leading-none select-none">
-                        LINER NOTES
+                        MusicDB
                     </h1>
                     <p className="text-retro-paper/90 font-serif italic text-sm mt-3 tracking-wide max-w-xs mx-auto">
                         "Music has a way of finding you even in the darkest of places."
@@ -68,8 +68,8 @@ export default function LoginPage() {
                     className="w-full bg-retro-black rounded-none border border-retro-paper/20 p-8 md:p-10 relative"
                 >
                     <div className="mb-8 border-b border-retro-paper/10 pb-4">
-                        <h2 className="font-serif text-retro-gold text-2xl font-black tracking-tight uppercase leading-none mb-1">MEMBERSHIP</h2>
-                        <p className="text-[10px] text-gray-500 font-sans font-black uppercase tracking-widest mt-1">SIGN IN WITH CREDENTIALS</p>
+                        <h2 className="font-serif text-retro-gold text-2xl font-black tracking-tight uppercase leading-none mb-1">SIGN IN</h2>
+                        <p className="text-[10px] text-gray-500 font-sans font-black uppercase tracking-widest mt-1">ENTER YOUR CREDENTIALS</p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-6">

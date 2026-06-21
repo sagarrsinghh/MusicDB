@@ -49,7 +49,7 @@ export default function RegisterPage() {
                     className="text-center mb-8 w-full"
                 >
                     <h1 className="font-serif text-retro-gold text-6xl md:text-7xl font-black uppercase tracking-tighter italic leading-none select-none">
-                        LINER NOTES
+                        MusicDB
                     </h1>
                     <p className="text-retro-paper/90 font-serif italic text-sm mt-3 tracking-wide max-w-xs mx-auto">
                         "Music has a way of finding you even in the darkest of places."
