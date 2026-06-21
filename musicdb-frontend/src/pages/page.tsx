@@ -132,7 +132,7 @@ export default function Home() {
     if (loading) {
         return (
             <div className="min-h-[80vh] flex items-center justify-center text-retro-gold font-sans tracking-widest uppercase animate-pulse text-xs">
-                Loading your music library...
+                Loading your music feed...
             </div>
         );
     }
@@ -233,7 +233,7 @@ export default function Home() {
                 {/* Page Header */}
                 <div className="border-b border-retro-paper/20 pb-6 mb-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
                     <div>
-                        <h1 className="font-serif text-4xl md:text-5xl font-black text-retro-paper leading-none mb-2 uppercase italic">The Archive</h1>
+                        <h1 className="font-serif text-4xl md:text-5xl font-black text-retro-paper leading-none mb-2 uppercase italic">Music Feed</h1>
                         <p className="font-serif text-xs text-gray-500 italic">
                             "Music has a way of finding you even in the darkest of places."
                         </p>
@@ -262,7 +262,7 @@ export default function Home() {
                         <div className="border border-retro-paper/20 bg-retro-black/40 p-6 rounded-none flex flex-col justify-between min-h-[220px] relative overflow-hidden group">
                             <div className="absolute top-0 right-0 w-24 h-24 rounded-full border border-retro-paper/5 -translate-y-1/2 translate-x-1/2 pointer-events-none" />
                             <div className="relative z-10 space-y-4">
-                                <h3 className="text-retro-gold font-sans font-black text-[9px] uppercase tracking-[0.3em]">YOUR MUSIC LIBRARY</h3>
+                                <h3 className="text-retro-gold font-sans font-black text-[9px] uppercase tracking-[0.3em]">MUSIC FEED</h3>
                                 <p className="font-serif text-xl md:text-2xl italic text-retro-paper leading-relaxed border-l-2 border-retro-gold/30 pl-5">
                                     "Music has a way of finding you even in the darkest of places."
                                 </p>
